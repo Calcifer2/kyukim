@@ -1,0 +1,3 @@
+name = 'banana'
+
+print('To ' + name + ' The metal-oxide-semiconductor field-effect transistor (MOSFET, MOS-FET, or MOS FET) is a type of field-effect transistor (FET), most commonly fabricated by the controlled oxidation of silicon. It has an insulated gate, whose voltage determines the conductivity of the device. This ability to change conductivity with the amount of applied voltage can be used for amplifying or switching electronic signals. A metal-insulator-semiconductor field-effect transistor or MISFET is a term almost synonymous with MOSFET. Another synonym is IGFET for insulated-gate field-effect transistor.')
