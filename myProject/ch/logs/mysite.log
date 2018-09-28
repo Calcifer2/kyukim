@@ -1,0 +1,2 @@
+[28/Sep/2018 15:58:03] DEBUG [polls.views:51 vote().question_id: 6
+[28/Sep/2018 15:59:43] DEBUG [polls.views:51 vote().question_id: 3
