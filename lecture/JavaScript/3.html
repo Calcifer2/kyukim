@@ -16,42 +16,9 @@
             color:blue;
         }
     </style>
-    <script>
-    function LinkSetColor(color)
-    {
-        var alist = document.querySelectorAll('a');
-        var i = 0;
-        while(i<alist.length)
-        {
-	        console.log(alist[i]);
-	        alist[i].style.color=color;
-	        i = i+1;
-        }
-    }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
 
-    function BodySetColor(color)
-    {
-        target.style.color = color; 
-    }
-
-    function nightDayHandler(self)
-    {
-        if(self.value ==='night')
-        {
-            target.style.backgroundColor = 'black';
-            BodySetColor('white'); 
-            self.value='day';
-            LinkSetColor('powderblue');      
-        }
-        else
-        {
-            target.style.backgroundColor = 'white';
-            BodySetColor('black');
-            self.value='night';
-            LinkSetColor('blue');
-        }
-    }
-    </script>
 </head>
 
 <body id='target'>
