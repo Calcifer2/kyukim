@@ -17,32 +17,38 @@
         }
     </style>
     <script>
-    function nightDayHandler(self){
-        if(self.value ==='night'){
-            target.style.backgroundColor = 'black';
-            target.style.color = 'white'; 
-            self.value='day';
-        
+    function LinkSetColor(color)
+    {
         var alist = document.querySelectorAll('a');
         var i = 0;
-        while(i<alist.length){
+        while(i<alist.length)
+        {
 	        console.log(alist[i]);
-	        alist[i].style.color='powderblue';
+	        alist[i].style.color=color;
 	        i = i+1;
         }
     }
-    else{
-        target.style.backgroundColor = 'white';
-        target.style.color = 'black';
-        self.value='night';
 
-        var alist = document.querySelectorAll('a');
-        var i = 0;
-        while(i<alist.length){
-	            console.log(alist[i]);
-	            alist[i].style.color='blue';
-	            i = i+1; 
-            }
+    function BodySetColor(color)
+    {
+        target.style.color = color; 
+    }
+
+    function nightDayHandler(self)
+    {
+        if(self.value ==='night')
+        {
+            target.style.backgroundColor = 'black';
+            BodySetColor('white'); 
+            self.value='day';
+            LinkSetColor('powderblue');      
+        }
+        else
+        {
+            target.style.backgroundColor = 'white';
+            BodySetColor('black');
+            self.value='night';
+            LinkSetColor('blue');
         }
     }
     </script>
