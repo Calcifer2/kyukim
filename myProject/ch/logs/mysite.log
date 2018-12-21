@@ -1,2 +1,4 @@
 [28/Sep/2018 15:58:03] DEBUG [polls.views:51 vote().question_id: 6
 [28/Sep/2018 15:59:43] DEBUG [polls.views:51 vote().question_id: 3
+[19/Dec/2018 20:10:02] DEBUG [polls.views:51 vote().question_id: 6
+[19/Dec/2018 20:10:04] DEBUG [polls.views:51 vote().question_id: 6
